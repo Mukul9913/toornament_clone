@@ -4,8 +4,8 @@ import Button from "../../common/Button";
 const PlayersOrganizers = () => {
   return (
     <section className="py-16 bg-white text-black">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-2 gap-12">
+      <div className="max-w-7xl mx-auto px-2 sm:px-2 lg:px-2">
+        <div className="grid md:grid-cols-2 gap-30">
           {/* Players and Teams */}
           <div className="flex flex-col justify-center items-center text-center">
             <div className="mb-4">
@@ -25,7 +25,7 @@ const PlayersOrganizers = () => {
               <img
                 src="https://www.toornament.com/media/8551889822921703424/original"
                 alt="Players Tournaments"
-                className="w-full rounded-sm h-64 object-cover mb-4 border-2 border-transparent hover:border-blue-500 transition duration-300" // Adjusted height for better visibility
+                className="w-full rounded-sm h-full object-cover mb-4 border-1 border-transparent hover:border-blue-500 transition duration-300" // Adjusted height for better visibility
                 onError={(e) => {
                   e.target.src = "https://via.placeholder.com/300x200"; // Fallback
                 }}
@@ -57,7 +57,7 @@ const PlayersOrganizers = () => {
               <img
                 src="https://www.toornament.com/media/8551889822921703424/original"
                 alt="Organizer Dashboard"
-                className="w-full rounded-sm h-64 object-cover mb-4 border-2 border-transparent hover:border-blue-500 transition duration-300" // Adjusted height
+                className="w-full rounded-sm h-full object-cover mb-4 border-1 border-transparent hover:border-blue-500 transition duration-300" // Adjusted height
                 onError={(e) => {
                   e.target.src = "https://via.placeholder.com/300x200"; // Fallback
                 }}

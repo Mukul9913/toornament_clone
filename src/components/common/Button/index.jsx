@@ -7,15 +7,15 @@ const Button = ({ children, onClick, variant = 'full', color = 'blue', className
   const getColorStyles = (color) => {
     const colors = {
       blue: {
-        outline: `bg-transparent border-2 border-[#009dff] text-[#009dff] hover:bg-[#33b1ff] hover:text-white`,
+        outline: `bg-transparent border-1 border-[#009dff] text-[#009dff] hover:bg-[#33b1ff] hover:text-white`,
         full: `bg-[#009dff] text-white hover:bg-[#33b1ff]`,
       },
       red: {
-        outline: `bg-transparent border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white`,
+        outline: `bg-transparent border-1 border-red-600 text-red-600 hover:bg-red-600 hover:text-white`,
         full: `bg-red-600 text-white hover:bg-red-700`,
       },
       green: {
-        outline: `bg-transparent border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white`,
+        outline: `bg-transparent border-1 border-green-600 text-green-600 hover:bg-green-600 hover:text-white`,
         full: `bg-green-600 text-white hover:bg-green-700`,
       },
     };

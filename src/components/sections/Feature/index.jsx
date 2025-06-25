@@ -65,7 +65,7 @@ const Features = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-white bg-opacity-90 px-5 py-6 rounded-sm border-2 border-transparent hover:border-2 hover:border-[#009dff] "
+              className="bg-white bg-opacity-90 px-5 py-6 rounded-sm border-1 border-transparent hover:border-1 hover:border-[#009dff] "
             >
               <img
                 src={feature.icon}
