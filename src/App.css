@@ -1,0 +1,8 @@
+ul.generic-nav > li > a:hover,
+ul.generic-nav > li > a:focus,
+ul.generic-nav > li > a:active {
+    color: var(--nav-generic-item-hover-color);
+    border-color: var(--nav-generic-item-hover-border-color);
+    background: var(--nav-generic-item-hover-background);
+}
+

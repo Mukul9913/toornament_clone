@@ -1,0 +1,6 @@
+@import "tailwindcss";
+:root {
+    --nav-generic-item-hover-color: #1e40af;
+    --nav-generic-item-hover-border-color:hsl(258, 30%, 17%);
+    --nav-generic-item-hover-background: hsl(258, 30%, 17%);
+}
