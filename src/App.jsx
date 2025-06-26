@@ -18,10 +18,10 @@ function App() {
             "url('https://www.toornament.com/media/8550864910285905920/original')",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          backgroundBlendMode: "overlay",
+          // backgroundBlendMode: "overlay",
         }}
       >
-        <div className="relative z-10">
+        <div className="relative z-2">
           <Navbar />
           <AppRoutes />
           <Footer />

@@ -20,12 +20,12 @@ const Hero = () => {
           alt="Toornament Logo"
           className="h-12 mx-auto mb-6"
         />
-        <p className="text-white text-3xl md:text-3xl font-bold mb-12">
+        <p className="text-white text-3xl md:text-3xl font-bold mb-20">
           Everything you need for esports competitions
         </p>
 
         {/* Game List */}
-        <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-8 xl:grid-cols-8 gap-4 mb-12">
+        <div className=" grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-8 xl:grid-cols-8 gap-4 mb-12">
           {games.map((game, index) => (
             <img
               key={index}
